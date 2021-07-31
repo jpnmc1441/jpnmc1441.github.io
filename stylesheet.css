@@ -2,6 +2,10 @@ body{
 background-color:black;
 color:white;}
 
+h1{
+	color:pink;
+	text-align:center;
+margin:auto;}
 
 .cat01{
 	color:white;
