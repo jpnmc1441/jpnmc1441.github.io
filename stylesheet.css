@@ -1,20 +1,73 @@
-body{
-background-color:black;
-color:white;}
 
-h1{
-	color:pink;
-	text-align:center;
-margin:auto;}
+body, html {
+height: 100%;
+margin: 0;
+font-family:Monospace, sans-serif;
+font-size:40px;}
 
-.cat01{
-	color:white;
-	font-family:monospace;
-	text-align:center;
-	border:2px solid white;
-	margin: 5px 10px;
-	display:inline;
-	float:left;
-	border-radius:50px;
-	padding:10px;
+* {
+box-sizing: border-box;}
+
+.bg-image {
+/* The image used */
+background-image: url("cyb.jpg");
+
+/* Full height */
+height: 100%;
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ 
+.box01 {
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+filter: blur(50px);
+min-height: 500px;
+background: rgba(0,0,0,0.7);
+}
+
+/* Position text in the middle of the page/image */
+.box02{
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+text-align:center;
+font-family: monospace;
+font-size:20px;
+}
+
+
+ 
+
+.cat {
+border-top: 1px solid aqua;
+border-right: 2px solid aqua;
+border-left: 2px solid aqua;
+margin: 20px auto;
+width: fit-content;
+padding: 20px;
+border-radius: 40px;
+cursor:pointer;
 }
