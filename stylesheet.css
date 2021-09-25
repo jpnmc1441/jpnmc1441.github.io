@@ -16,6 +16,7 @@ background-size: cover;}
     font-family: monospace;
     font-size: 20px;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     margin: auto;
     text-align: center;
 }
