@@ -1,8 +1,7 @@
 body {
 background: url("https://hdqwalls.com/download/stranger-things-season-3-2019-4k-5k-38-1920x1080.jpg");
-margin: 0;
 font-family:Andale Mono, monospace;
-font-size:40px;
+font-size:20px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -19,18 +18,30 @@ padding: auto;
 margin: auto;
 }
 
-.sitetitle{
+.menu01{
+  margin:auto;
+  width:80%;
+  text-align: center;
+  border:1px solid aqua;
+  position: sticky;
+  top: 0;
+}
+
+.menu02{
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: rgba(255, 0, 0, 0.1);
 backdrop-filter: blur(24px);
 box-shadow: 5px 10px 18px #000;
 border-radius: 50px;
-margin: auto;
-width:fit-content;
+width:120px;
+display: inline-block;
 border:1px solid pink;
-color:red;
-position:sticky;
-top:0;}
+color:rgb(21, 160, 211);}
+
+.menu02:hover{color:white;
+background-color: rgba(240, 186, 228, 0.5);
+border:1px solid pink;}
+
 
 .cat {
 border:1px solid gray;
@@ -53,7 +64,7 @@ border:1px solid aqua;
 border:1px solid gray;
 border-radius:20px;
 height:auto;
-max-width:300px;
-min-width:300px;
+max-width:350px;
+min-width:350px;
 margin:40px auto;
 }
