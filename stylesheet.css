@@ -13,6 +13,7 @@ border-radius: 25px;
 color: white;
 text-align: center;
 backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
 background-color: rgba(100, 0, 0, 0.1);
 padding: auto;
 margin: auto;
