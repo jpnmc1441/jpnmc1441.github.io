@@ -1,4 +1,7 @@
+
 body {
+  margin:auto;
+  max-width:500px;
   color:rgba(250,216,89,0.7);
   background-color:black;
   text-align: center;
