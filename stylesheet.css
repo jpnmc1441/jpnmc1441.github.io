@@ -2,8 +2,7 @@ body{
     background-color:black;
     color:white;}
 
-.heading{
-    background: #ccc;
+.sticky{
     height: auto;
     line-height: 50px;
     margin-top: 10px;
@@ -12,3 +11,13 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;}
+
+.sticky01{
+    border:1px solid red;
+    
+    height: auto;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+min-height:400px;}
