@@ -1,4 +1,6 @@
 body{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
     background-color:black;
     color:white;}
 
@@ -13,10 +15,15 @@ body{
     top: 0px;}
 
 .sticky01{
-    border:1px solid pink;
+    border:1px solid red;   
     height: auto;
     line-height: 50px;
     margin-top: 10px;
     font-size: 30px;
     padding-left: 10px;
-min-height:400px;}
+    min-height:400px;
+    backdrop-filter:blur(10px)
+}
+img{width:100%;}
+.header01{color:white;
+    background-color:aquamarine} 
