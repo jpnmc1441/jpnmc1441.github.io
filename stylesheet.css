@@ -1,5 +1,5 @@
 body{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Arima Madurai', cursive;
     font-weight: bold;
     background-color:black;
     color:white;}
@@ -22,9 +22,24 @@ body{
     font-size: 30px;
     padding-left: 10px;
     min-height:400px;
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter:blur(10px)
 }
+
 img{width:100%;}
+
 .header01{color:white;
     background-color:aquamarine;} 
+
+.sitetitlediv{
+    width:fit-content;
+    border-bottom:1px solid lime;
+    margin:auto;
+    padding-bottom: 2px;}
+
+.sitetitle{font-family: 'Arima Madurai', cursive;
+    
+    font-size:100px;
+    margin:auto;
+    width:fit-content;
+    border-top:1px solid lime;
+    border-bottom:3px solid lime;}
