@@ -15,7 +15,21 @@
 <img class="sticky" src="https://i.ibb.co/gJWHq4P/02.jpg">
 
 <div class="sticky01">
-<div class="sticky"><h1 class="header01">some title</h1><p>This is a new paragraph. This is sample text.</p></div>
+<div class="sticky"><div >
+      <h1 style="text-align: center">Show Instagram Feed on your Website</h1>
+    	<div id="instafeed-container"></div>
+    	
+    	
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    	resolution: 'low_resolution',
+		accessToken: 'IGQVJVVnpsdDhTMnpYVzJ2WTNjUXlrZA0syZAVkzN1dXbG4yNTdMYkE0VTFvaG5MSjh3WDB2SHdQcEhWYU1TVHR3S3RyNlgwUFR0R0ZAVODlTR1VSU1RFcHVGQ2NpZATVpdWVSS3ZAlcjlRb2lNVmV3WUtiMAZDZD'
+	});
+	userFeed.run();
+	</script></div>
 </div>
 
 <div class="sticky01">
