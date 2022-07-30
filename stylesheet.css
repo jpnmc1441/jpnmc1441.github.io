@@ -4,6 +4,8 @@ body{
     background-color:black;
     color:white;}
 
+.instafeed{border:1px solid pink; max-width:500px;}
+
 .sticky{
     height: auto;
     line-height: 50px;
